@@ -22,6 +22,8 @@ class CreateMedicinesTable extends Migration
             $table->integer('faskes_tk1');
             $table->integer('faskes_tk2');
             $table->integer('faskes_tk3');
+            $table->integer('price');
+            $table->string('img',300);
             $table->timestamps();
         });
     }

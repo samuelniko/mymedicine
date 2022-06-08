@@ -20,7 +20,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 0,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 1
+            'price' => 30000,
+            'category_id' => 1,
+            'img' => '1'
         ]);
 
         DB::table('medicines')->insert([
@@ -31,7 +33,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 0,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 1
+            'price' => 30000,
+            'category_id' => 1,
+            'img' => '2'
         ]);
 
         DB::table('medicines')->insert([
@@ -42,7 +46,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 0,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 1
+            'price' => 30000,
+            'category_id' => 1,
+            'img' => '3'
         ]);
 
         //2 ANALGESIK NON NARKOTIK
@@ -54,7 +60,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 2
+            'price' => 30000,
+            'category_id' => 2,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -65,7 +73,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 2
+            'price' => 30000,
+            'category_id' => 2,
+            'img' => '5'
         ]);
 
         DB::table('medicines')->insert([
@@ -76,7 +86,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 0,
             'faskes_tk2' => 0,
             'faskes_tk3' => 1,
-            'category_id' => 2
+            'price' => 30000,
+            'category_id' => 2,
+            'img' => '6'
         ]);
 
         //3 ANESTETIK LOKAL
@@ -88,7 +100,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 0,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 3
+            'price' => 30000,
+            'category_id' => 3,
+            'img' => '7'
         ]);
 
         DB::table('medicines')->insert([
@@ -99,7 +113,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 3
+            'price' => 30000,
+            'category_id' => 3,
+            'img' => '8'
         ]);
 
         DB::table('medicines')->insert([
@@ -110,7 +126,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 3
+            'price' => 30000,
+            'category_id' => 3,
+            'img' => '9'
         ]);
 
         //4 ANTIALERGI dan OBAT untuk ANAFILAKSIS
@@ -122,7 +140,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 4
+            'price' => 30000,
+            'category_id' => 4,
+            'img' => '10'
         ]);
 
         DB::table('medicines')->insert([
@@ -133,7 +153,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 4
+            'price' => 30000,
+            'category_id' => 4,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -144,7 +166,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 4
+            'price' => 30000,
+            'category_id' => 4,
+            'img' => '4'
         ]);
 
         //5 ANTIEPILEPSI - ANTIKONVULSI
@@ -156,7 +180,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 5
+            'price' => 30000,
+            'category_id' => 5,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -167,7 +193,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 5
+            'price' => 30000,
+            'category_id' => 5,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -178,7 +206,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 5
+            'price' => 30000,
+            'category_id' => 5,
+            'img' => '4'
         ]);
 
         //6 Antelmintik Intestinal
@@ -190,7 +220,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 6
+            'price' => 30000,
+            'category_id' => 6,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -201,7 +233,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 6
+            'price' => 30000,
+            'category_id' => 6,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -212,7 +246,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 6
+            'price' => 30000,
+            'category_id' => 6,
+            'img' => '4'
         ]);
 
         //7 ANTIMIGREN
@@ -224,7 +260,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 7
+            'price' => 30000,
+            'category_id' => 7,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -235,7 +273,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 7
+            'price' => 30000,
+            'category_id' => 7,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -246,7 +286,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 7
+            'price' => 30000,
+            'category_id' => 7,
+            'img' => '4'
         ]);
 
         //8 HORMON dan ANTIHORMON
@@ -258,7 +300,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 0,
             'faskes_tk2' => 0,
             'faskes_tk3' => 1,
-            'category_id' => 8
+            'price' => 30000,
+            'category_id' => 8,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -269,7 +313,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 0,
             'faskes_tk2' => 0,
             'faskes_tk3' => 1,
-            'category_id' => 8
+            'price' => 30000,
+            'category_id' => 8,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -280,7 +326,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 0,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 8
+            'price' => 30000,
+            'category_id' => 8,
+            'img' => '4'
         ]);
         
         //9 OBAT untuk PROSEDUR PRE OPERATIF
@@ -292,7 +340,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 9
+            'price' => 30000,
+            'category_id' => 9,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -303,7 +353,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 9
+            'price' => 30000,
+            'category_id' => 9,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -314,7 +366,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 0,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 9
+            'price' => 30000,
+            'category_id' => 9,
+            'img' => '4'
         ]);
 
         //10 ANTIDOT dan OBAT LAIN untuk KERACUNAN
@@ -326,7 +380,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 10
+            'price' => 30000,
+            'category_id' => 10,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -337,7 +393,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 0,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 10
+            'price' => 30000,
+            'category_id' => 10,
+            'img' => '4'
         ]);
 
         DB::table('medicines')->insert([
@@ -348,7 +406,9 @@ class MedicineSeeder extends Seeder
             'faskes_tk1' => 1,
             'faskes_tk2' => 1,
             'faskes_tk3' => 1,
-            'category_id' => 10
+            'price' => 30000,
+            'category_id' => 10,
+            'img' => '4'
         ]);
     }
 }
