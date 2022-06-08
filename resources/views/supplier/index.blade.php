@@ -113,7 +113,7 @@
               @csrf
               @method("DELETE")
               <input type="submit" value = "Delete" class="btn btn-danger"
-              onclick="if(!confirm('are you sure to delete this record?')) return false;" />
+              onclick="if(!confirm('are you sure to delete this record??')) return false;" />
         </form>
         @endcan
         </td>
