@@ -8,6 +8,8 @@ use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Auth;
+
 
 class RegisterController extends Controller
 {
@@ -70,5 +72,25 @@ class RegisterController extends Controller
             'sebagai' => $data['roles'],
             'password' => Hash::make($data['password']),
         ]);
+    }
+
+    public function redirectTo()
+    {
+        $role = Auth::user()->sebagai;
+            switch ($role) {
+                case 'owner':
+                    return '/suppliers';
+                    break;
+                case 'pegawai':
+                    return '/obat';
+                    break;
+                case 'member':
+                    return '/checkout';
+                    break;
+                    
+                default:
+                    return '/home';
+                break;
+            }
     }
 }

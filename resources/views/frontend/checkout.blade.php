@@ -49,7 +49,7 @@
         <tr>
             <td><a href="{{ url('/') }}" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
             <td colspan="2" class="hidden-xs"></td>
-            <td><a href="{{ url('/checkout') }}" class="btn btn-danger">CheckOut</a></td>
+            <td class="hidden-xs"><a href="{{ route('submitcheckout') }}" class="btn btn-danger">Finish</a></td>
 
             <td class="hidden-xs text-center"><strong>Total {{ $total }}</strong></td>
         </tr>

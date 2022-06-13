@@ -21,4 +21,16 @@ class Transaction extends Model
         return $this->belongsToMany('App\Medicine','medicine_transaction','transaction_id','medicine_id')->withPivot('quantity','price');
 
     }
+
+    public function insertProduct($cart, $user)
+    {
+        $total=0;
+        foreach($cart as $id => $details)
+        {
+            $total += $details['price'] * $details['quantity'];
+            $this->products()->attach($id,['quantity' => $details['quantity'], 'subtotal' => $details['price']]);
+        }
+
+        return $total;
+    }
 }
