@@ -8,6 +8,18 @@ use Illuminate\Support\Facades\DB;
 
 class MedicineController extends Controller
 {
+    public function front_index()
+    {
+        // $listdata= DB::select(DB::raw('select * from medicines'));
+
+        // $listdata=DB::table('medicines')->get();
+
+        // //Eloquent
+        $listdata= Medicine::all();
+        // dd($listdata);
+
+        return view('frontend.product',compact('listdata'));
+    }
     /**
      * Display a listing of the resource.
      *
@@ -120,5 +132,29 @@ class MedicineController extends Controller
             return redirect()->route('medicine.index')->with('error',$msg);
         }
         dd($medicine);
+    }
+
+    public function addToCart($id)
+    {
+        $m=Medicine::find($id);
+        $cart=session()->get('cart');
+        if(!isset($cart[$id]))
+        {
+            $cart[$id]=[
+                "name"=>$m->generic_name,
+                "quantity"=>1,
+                "price"=>$m->price,
+                "photo"=>$m->img
+            ];
+        }else{
+            $cart[$id]['quantity']++;
+        }
+        session()->put('cart',$cart);
+        return redirect()->back()->with('success','Product added to cart succesfully!');
+    }
+    
+    public function cart()
+    {
+        return view('frontend.cart');
     }
 }
